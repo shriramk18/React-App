@@ -1,0 +1,26 @@
+
+.main{
+    
+    box-shadow: rgba(14, 13, 13, 0.35) 0px 5px 15px;;
+    width: 100px;
+    height: 180px; 
+    margin-left:45%;
+    background-color: rgb(20, 163, 75);
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 10%;
+
+
+}
+.btn
+{
+    background-color: rgb(150, 49, 130);
+    color: rgb(0, 3, 3);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 50%;
+    height: 30px;
+    width: 100px;
+    margin-top: 10px;
+    border: 1px solid black;
+    
+}
