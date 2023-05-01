@@ -1,0 +1,13 @@
+.container{
+    padding-top: 60px;
+    margin:auto;
+}
+.btn{
+    background-color: orangered;
+    color: white ;
+}
+#inp{
+    background-color: palevioletred;
+    color: white ;
+    margin: 10px;
+}
