@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
      <Ur/>
-     {/* <Ueff/> */}
+     <Ueff/>
     </div>
   );
 }
