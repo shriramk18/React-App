@@ -1,0 +1,35 @@
+.main {
+    background-color: white;
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
+
+.m2 {
+    margin-top: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 250px;
+    height: 300px;
+    border-radius: 20px;
+    padding: 15px;
+    background-color: pink;
+}
+
+img {
+    border-radius: 100%;
+}
+
+.pg {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.btn {
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+    font-size: larger;
+    background-color: rgb(219, 106, 194);
+    cursor: pointer;
+}
