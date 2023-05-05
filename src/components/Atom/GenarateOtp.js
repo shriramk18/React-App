@@ -26,7 +26,7 @@ export function GenerateOtp() {
             headers: {
                 'Content-Type': 'application/json',
             },
-            body: JSON.stringify({ mobile: 9673893458 })
+            body: JSON.stringify({ mobile: '' })
 
         }
         fetch(url,option)
@@ -41,6 +41,7 @@ export function GenerateOtp() {
             <div>
                 <input onChange={(e) => { setNum(e.target.value) }}  type='number'/>
                 <button onClick={getOTP}>GET OTP</button>
+                {/* <p>{e.target.value}</p> */}
                 <h3>{msg}</h3>
             </div>
         </div>
