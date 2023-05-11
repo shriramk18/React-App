@@ -32,8 +32,8 @@
 }
 .img {
     border-radius: 50%;
-    width: 20vw;
-    height: 15vh;
+    width: 100px;
+    height: 100px;
     border: 1px solid palevioletred;
     background-color: rgb(168, 202, 215);
 }
