@@ -1,0 +1,49 @@
+.container {
+    display: flex;
+    align-items: center;
+    border: 2px solid orangered;
+    overflow: scroll;
+    height: 200px;
+    padding: 2rem;
+    width: 80%;
+    background-color: rgb(9, 16, 227);
+    margin: auto;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-top: 50px;
+    margin-bottom: 40%;
+
+}
+.container::-webkit-scrollbar{
+    display: none;
+}
+
+.card{
+    
+        border: 1px solid black;
+        min-width: 200px;
+        min-height: 200px;
+        margin: 10px;
+        border-radius: 30px;
+        margin-right: 2rem;
+        background-color: pink;
+        padding: 1px;
+    
+}
+.img {
+    border-radius: 50%;
+    width: 20vw;
+    height: 15vh;
+    border: 1px solid palevioletred;
+    background-color: rgb(168, 202, 215);
+}
+.Name {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: solid black;
+    font-size: 20px;
+}
+
+.role {
+    font-size: 15px;
+    color: black;
+}
