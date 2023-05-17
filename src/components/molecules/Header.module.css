@@ -1,0 +1,129 @@
+header {
+    display: flex;
+    
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0836f2;
+    padding: 10px;
+    height:50px;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .img1 {
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+  }
+  
+  .logoName {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .nav1 {
+    display: flex;
+  }
+  
+  .ul1 {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  .li1 {
+    margin-right: 10px;
+   cursor: pointer;
+  }
+  
+  .a1 {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .bar {
+    display: none;
+  }
+  .navfinal{
+    display:none;
+  }
+  
+.hero{
+    display: flex;
+   width: 100%;
+
+}
+.text{
+  color:white;
+ 
+  text-align: center;
+  background-color: #151516;
+  width:50%
+  
+}
+.imge{
+  border: 2px solid black;
+  width: 50%;
+}
+.imge img{
+ background-color: #333;
+ width:50%
+}
+
+
+
+@media only screen and (min-width: 600px){
+  .nav2{
+    display: none;
+  }
+}
+  
+  /* Media query for mobile view */
+  @media only screen and (max-width: 600px) {
+    .logo {
+      justify-content: space-between; /* Adjust the alignment of the logo and menu icon */
+    }
+  
+    .nav1 {
+      display: none; /* Hide the navigation links by default */
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
+      background-color: #f2f2f2;
+      padding: 10px;
+    }
+    .hero{
+        display: flex;
+        flex-direction: column-reverse;
+    
+    }
+    .text{
+      color:white;
+     
+      text-align: center;
+      background-color: #151516;
+      width:100%
+      
+    }
+    .imge{
+      border: 2px solid rgb(251, 239, 239);
+      width: 100%;
+      height: auto;
+    }
+    .bar {
+      display: block;
+      cursor: pointer;
+    }
+   
+  
+      
+    
+      
+      
+
+  }
